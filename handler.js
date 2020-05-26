@@ -5,8 +5,10 @@
 //         handleback: true
 //     }
 // };
-console.log('work');
-document.getElementById('paybtn').onclick = function(){
-    window.alert('click');
-};
-
+function init() {
+    console.log('work');
+    document.getElementById('paybtn').onclick = function () {
+        window.alert('click');
+    };
+}
+ init();
